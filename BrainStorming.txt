@@ -1,0 +1,25 @@
+Hand tremor stabilizer
+
+- [X] download the user and reference manual for stm32-l475xx
+- [X] download cortex m4 reference manual 
+
+- check weather you will work with both accelermoeter + gyroscope or gyroscope only
+- gyroscope will determing the angular velocity 
+
+
+Research phase : 
+	- learn about kalman filter, wether you will work with the corrector or the predictor
+	- draw the first closed loop diagram 
+	- you should know that the accelerometer is noisy
+	- learn more about the accelerometer module in stm32l4
+	- learn if FREERTOS is applicable in this case
+	- write the first schema of this project
+	
+	phase 1 : set-up
+		- boot the stm32l4 
+		- try to get values from the accelerometer sensor of it 
+		
+	phase 2 : kalman-filter
+		- redesign the closed loop diagram for this project if necessary 
+		- 
+application phase : 
